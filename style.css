@@ -1,0 +1,15 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.title{
+    font-family: 'Arial';
+}
+
+#mark{
+    display: none;
+}
+
+#dismissRober{
+    display: none;
+}
