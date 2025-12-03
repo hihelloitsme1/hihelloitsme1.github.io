@@ -9,7 +9,8 @@
 <body>
     <h1 class="title">Number Guessing</h1>
     <h3>Guess a number in between 0 and 10!</h3>
-    <input id = "guess" type="number" min="0" max="10">
+    <h4 id="valuedisplay">5</h4>
+    <input id = "guess" type="range" oninput="UpdateText()" min="0" max="10">
     <button onclick="NumberGuess()">Submit</button>
     <p id="result"></p>
     <button type="button" onclick="SwitchPage('index.html')">Main</button>
