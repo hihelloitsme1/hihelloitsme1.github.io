@@ -40,3 +40,10 @@ body {
 #square3{
     background-color: #0B525B;
 }
+
+#valuedisplay{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 3px;
+}
