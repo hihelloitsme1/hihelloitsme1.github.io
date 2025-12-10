@@ -13,21 +13,28 @@ body {
 #dismissRober{
     display: none;
 }
-
 .square{
     display: inline-block;
-    margin-right: 5px;
-    height: 7.5vw;
-    width: 7.5vw;
-    border-radius: 10px
+    margin-right: -5px;
+    height: 5vw;
+    width: 5vw;
+    border-radius: 1.5vw
+}
+
+.square:hover{
+    height: 6vw;
+    width: 6vw;
 }
 
 #square1{
-    background-color: #006466;
+    background-image: url("./MarkRober.png");
+    background-size: cover;
 }
 
 #square2{
-    background-color: #065A60;
+    background-image: url("./GameController.png");
+    background-size: cover;
+    background-color: #b6b6b6;
 }
 
 #square3{
