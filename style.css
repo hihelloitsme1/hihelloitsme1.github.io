@@ -29,16 +29,19 @@ body {
 #square1{
     background-image: url("./MarkRober.png");
     background-size: cover;
+    background-color: #2b2b2b;
 }
 
 #square2{
     background-image: url("./GameController.png");
     background-size: cover;
-    background-color: #b6b6b6;
+    background-color: #2b2b2b;
 }
 
 #square3{
-    background-color: #0B525B;
+    background-image: url("./NumbersIcon.png");
+    background-size: cover;
+    background-color: #2b2b2b;
 }
 
 #valuedisplay{
