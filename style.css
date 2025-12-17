@@ -13,12 +13,20 @@ body {
 #dismissRober{
     display: none;
 }
+
+#square-holder{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 .square{
     display: inline-block;
     margin-right: -5px;
     height: 5vw;
     width: 5vw;
-    border-radius: 1.5vw
+    border-radius: 1.5vw;
 }
 
 .square:hover{
